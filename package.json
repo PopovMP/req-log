@@ -1,0 +1,21 @@
+{
+  "name": "@popovmp/req-log",
+  "description": "Simple and fast request logger for express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Popov MP <info@forexsb.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/popovmp/req-log",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popovmp/req-log.git"
+  },
+  "keywords": [
+    "request",
+    "logger",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/popovmp/req-log/issues"
+  }
+}
