@@ -1,12 +1,13 @@
-# Express Request Logger
+# Request Logger for Express
 
 Simple request logger for `express`.
 
 ## Usage
 
 ```js
-const { reqLog }  = require('@popovmp/req-log'     )
-app.use( reqLog(['/ignore-this/path', '/favicon.ico']) )
+const { reqLog } = require('@popovmp/req-log')
+
+app.use( reqLog() ) // app is an express application
 ```
 
 `req-log` prints stats for the requests in columns as follows:
