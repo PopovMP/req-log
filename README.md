@@ -5,9 +5,9 @@ Simple request logger for `express`.
 ## Usage
 
 ```js
-const { reqLog } = require('@popovmp/req-log')
+const {reqLog} = require("@popovmp/req-log");
 
-app.use( reqLog() ) // app is an express application
+app.use(reqLog()); // app is an express application
 ```
 
 `req-log` prints stats for the requests in columns as follows:
@@ -25,13 +25,13 @@ app.use( reqLog() ) // app is an express application
 You can use `reeq-log` without parameters to print all requests.
 
 ```js
-app.use( reqLog() )
+app.use(reqLog());
 ```
 
 Yuo can also add as a parameter the list of paths you want to ignore for logging.
 
 ```js
-app.use( reqLog( ['favicon.ico', 'ignore/path-1', 'ignore/path-2'] ))
+app.use(reqLog(["favicon.ico", "ignore/path-1", "ignore/path-2"]));
 ```
 
 ## license
